@@ -1,0 +1,40 @@
+header {
+  position: relative;
+}
+
+nav {
+  height: 70px;
+  text-align: center;
+}
+
+.logo {
+  padding: 15px 0;
+  float: left;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  list-style-type: none;
+  padding: 25px 0;
+}
+
+.menu .menu_item {
+  padding-left: 41px;
+}
+
+.intro {
+  min-height: 908px;
+  background: url("../img/bg/BG.png") center center/cover no-repeat;
+}
+
+.intro .intro_header {
+  margin-top: 206px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 56px;
+  /* or 140% */
+
+  color: #ffffff;
+}

@@ -1,0 +1,287 @@
+::placeholder 
+    color: #576677
+    padding-left: 20px
+    font-size: 17px
+
+header
+    position: relative
+
+nav
+    height: 70px
+    text-align: center
+    z-index: 5
+    position: fixed
+    background-color: #fff
+    width: 100%
+    top: 0
+
+.logo
+    padding: 15px 0
+    float: left
+
+.menu
+    display: flex
+    justify-content: flex-end
+    margin: 0
+    list-style-type: none
+    padding: 25px 0
+    &_item
+        padding-left: 41px
+        &:first-child a
+            border-bottom: 2px #5454D4 solid
+            padding-bottom: 6px
+    &_link
+        color: black
+        font-size: 16px
+
+.intro
+    overflow: hidden
+    width: 100%
+    padding-top: 126px
+    position: relative
+    background-image: url("../img/bg/bg.png")
+    background-repeat: no-repeat
+    background-position: bottom
+    background-size: 100% 100%
+
+    &_bg_1
+        position: absolute
+        width: 1263px
+        height: 612px
+        left: 0
+        bottom: 500px
+        background: #3947B6
+        box-shadow: 0px 11px 106px #2A389D
+        transform: matrix(-0.96, -0.28, -0.28, 0.96, 0, 0)
+        border-radius: 25px
+ 
+    &_bg_2
+        position: absolute
+        width: 759px
+        height: 663px
+        left: -100px
+        bottom: 120px
+        background: #4250BF
+        box-shadow: 0px 4px 30px #263396
+        transform: matrix(-0.96, -0.28, -0.28, 0.96, 0, 0)
+        border-radius: 25px
+
+    &_header
+        margin-top: 75px
+        font-weight: bold
+        font-size: 40px
+        line-height: 56px
+        color: white
+
+    &_moreinfo_btn
+        text-align: center
+        margin-top: 130px
+        padding-bottom: 130px
+        img
+
+    &_video_block
+        display: flex
+        width: 544px
+        height: 382px
+        margin-left: 137px
+        background: url("../img/bg/bg-video.svg") center center/cover no-repeat
+        border-radius: 10px
+        a
+            display: inline-block
+            height: 100%
+            width: 100%
+
+        img
+            display: block
+            transform: translateY(80%)
+            margin: auto auto
+    &_social
+        z-index: 999 
+        position: fixed
+        right: 95px
+        bottom: 20px
+        display: flex
+        justify-content: flex-end
+        &_wrapper
+        img
+            display: block
+            padding: 6px 0
+
+    &_subscribe
+        margin-top: 74px
+        &_info
+            font-style: normal
+            font-weight: normal
+            font-size: 18px
+            margin-bottom: 18px
+            opacity: 0.7
+            color: white
+        &_input
+            width: 100%
+            height: 46px
+            border: 0 none
+            border-radius: 25px
+        &_button
+            position: absolute
+            right: 5px
+            width: 154px
+            height: 46px
+            border: 0 none
+            border-radius: 25px
+            background-color: #38A5DB
+            font-family: Open Sans
+            font-weight: 600
+            color: white
+
+.team
+    min-height: 545px
+    margin-top: 75px
+    &_carousel
+        visibility: hidden
+        display: none
+
+    &_subheader
+        font-style: normal
+        font-size: 16px
+        letter-spacing: 16px
+        margin-right: -16px
+        
+        text-align: center
+        margin-bottom: 45px
+    &_member
+        text-align: center
+        &_photo
+            max-height: 131px
+            max-width: 131px
+            display: block
+            margin: 0 auto
+        &_name
+            color: #38A5DB
+            margin-top: 20px
+            font-size: 24px
+        &_position
+            margin-top: 10px
+            font-family: Open Sans
+            font-style: normal
+            font-weight: normal
+            font-size: 13px
+            letter-spacing: 0.26px
+            opacity: 0.5
+            color: #011226
+            
+        &_quote
+            margin-top: 16px
+        &_social
+            margin-top: 32px
+            &_link
+                padding: 0 2.5px
+                border: 0.5px solid rgba(127, 139, 152, .5)
+                border-radius: 3px
+                i
+                    padding: 5px 17px
+                    color: black
+            
+.contact
+    padding-top: 90px
+    min-height: 693px
+    background-color: #252B42
+    text-align: center
+    &_header
+        font-size: 16px
+        letter-spacing: 12px
+        margin-right: -12px
+        text-transform: uppercase
+        color: #FFFFFF
+    &_subheader
+        font-style: normal
+        font-weight: normal
+        font-size: 18px
+        color: #FFFFFF
+        text-align: center
+        margin-top: 30px
+
+    &_form
+        display: flex    
+        flex-direction: column
+        justify-content: flex-start
+        background-color: #4250BF
+        width: 100%
+        padding: 60px 41px 26px 41px
+        margin: 50px auto 0 auto
+        height: 370px
+        border-radius: 13.0742px
+    &_input
+        margin-top: 24px
+        width: 100%
+        height: 46px
+        border: 0
+        border-radius: 25px
+        
+    &_checkbox
+        width: 24px
+        height: 24px
+        &_wrapper
+            display: flex
+            align-content: center
+        &_label
+            margin-left: 8px
+            color: white
+    &_submit_button
+        border: 0
+        margin-top: 37px
+        width: 95px
+        height: 46px
+        background: #38A5DB
+        border-radius: 23px
+        color: white
+        font-family: Open Sans
+        font-weight: 600
+footer
+    min-height: 225px
+.footer
+    &_info
+        text-align: center
+        display: flex
+        justify-content: space-between
+        align-items: center 
+        img
+            padding-top: 48px
+            align-self: center
+            padding-right: 133px
+        &_contact
+            width: 370px
+            padding-top: 40px
+            font-size: 16px
+            color: blue
+            a
+                display: block
+                padding-top: 18px
+                
+        &_whitepaper
+            margin-top: 48px
+            display: flex
+            align-items: center
+            text-align: center
+            width:  220px
+            align-self: auto
+            height: 46px
+            background-color: #38A5DB
+            border-radius: 23px
+            box-shadow: 0px 12px 44px rgba(56, 165, 219, 0.6)
+            a
+                display: block
+                width: 100%
+                color: white
+                margin: 0 auto
+                
+    &_links
+        padding: 58px 25px 0 58px
+        display: flex
+        justify-content: center
+        &_item      
+            padding: 0 32px
+            color: black
+            font-size: 18px
+            border-right: 2px #9CA4C7 solid
+            &:last-child 
+                border: none
